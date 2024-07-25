@@ -3,8 +3,8 @@ from transformers import CLIPTokenizer
 from optimum.onnxruntime import ORTStableDiffusionPipeline
 from diffusers.schedulers import PNDMScheduler
 
-main_dir=r"C:\Users\K_ADMIN\Desktop\AMD GenAI\SD_FaceGen\FaceGen_ONNX"
-vaip_config = r"C:\Users\K_ADMIN\Desktop\AMD GenAI\SD_FaceGen\vaip_config.json"
+main_dir="converted/model/location"
+vaip_config = "location/to/vaip_config.json"
 # Load the ONNX models for VAE decoder, text encoder, and U-NET
 vae_decoder_session = ort.InferenceSession(main_dir+r"\vae_decoder\model.onnx", providers=['VitisAIExecutionProvider'],
                                     provider_options=[{"config_file":vaip_config}])
