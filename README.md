@@ -1,1 +1,1 @@
-This repository include backend codes and UI for Forensic Face Generator developed for AMD Pervasive AI Developer Contest. Tutorial contains code to test/convert FaceGen (stable diffusion),LLama2 and whisper small model.
+This repository include backend codes and UI for Forensic Face Generator developed for AMD Pervasive AI Developer Contest. Tutorial contains seperate code files to test/convert FaceGen (stable diffusion),LLama2 and whisper small model.
